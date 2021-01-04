@@ -90,7 +90,7 @@ How to test:
 
 Open Firefox Coap Client and search for the published services:
 
-    coap://130.149.232.234:10001/bwController
+    coap://<target-IP>:10001/bwController
     coap://<BandwidthController-IP Address>:10001/bwController 
   
 ### iperf.jar rest

@@ -33,7 +33,7 @@ class BandwidthMeasurementResource(Resource):
 
         print self.ip + " " + self.port + " " + self.time
 
-    #coap://130.149.232.234:10001/bwMeasurement/measure?ip={ip}0&port={port}&time={ms}
+    #coap://<target-IP>:10001/bwMeasurement/measure?ip={ip}0&port={port}&time={ms}
 
     def render_GET(self, request):
         requestUriQuery= str(request.uri_query) # includes query parameters

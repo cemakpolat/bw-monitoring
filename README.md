@@ -1,5 +1,5 @@
 
-# Bandwidth Controller
+# Bandwidth Controller and Monitoring
 
 The purpose of this program is to measure the bandwidth usage of the platform on which it is installed and dynamically decrease/increase the bandwidth usage of the network interfaces.
 The taken measurement are transferred via the Python CoAP Server. In order to test the functionalities a firefox coap plugin is actively used. This plugin is not supported by the new firefox versions, please install firefox 55.0.3 or lower versions.   

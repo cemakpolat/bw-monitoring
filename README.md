@@ -98,9 +98,4 @@ Open Firefox Coap Client and search for the published services:
 TCP based bandwidth monitoring. It might be replaced with the original iperf command. The `iperf.jar` has nothing to do with `iperf` command. 
         coap://<target-IP>:10001/bwMeasurement
         
-### iperf rest api
-
-
-### d-itg rest api
-
 
